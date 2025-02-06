@@ -12,9 +12,8 @@ public class ContaCorrente extends ContaBancaria{
     }
 
     @Override
-    public void setSaldo(double valor) {
-
-
-        System.out.println("Saldo alterado");
+    public void depositar(double valor) {
+        this.saldo += valor;
+        System.out.println("Valor depositado");
     }
 }
