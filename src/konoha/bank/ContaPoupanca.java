@@ -2,8 +2,8 @@ package konoha.bank;
 
 public class ContaPoupanca extends ContaBancaria{
 
-    public ContaPoupanca(double saldo) {
-        super(saldo);
+    public ContaPoupanca(double saldo, TipoConta tipoConta) {
+        super(saldo, tipoConta);
     }
 
     @Override
